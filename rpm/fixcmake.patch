@@ -1,0 +1,20 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+old mode 100755
+new mode 100644
+diff --git a/telegram-qt/CMakeLists.txt b/telegram-qt/CMakeLists.txt
+index 12c3d62..a308ec7 100644
+--- a/telegram-qt/CMakeLists.txt
++++ b/telegram-qt/CMakeLists.txt
+@@ -89,9 +89,9 @@ else()
+         Qt5::Core
+         Qt5::Network
+     )
+-    target_include_directories(telegram-qt${QT_VERSION_MAJOR} PRIVATE
+-        ${QT5_INCLUDES}
+-    )
++#    target_include_directories(telegram-qt${QT_VERSION_MAJOR} PRIVATE
++#        ${QT5_INCLUDES}
++#    )
+ endif()
+ 
+ target_link_libraries(telegram-qt${QT_VERSION_MAJOR}
